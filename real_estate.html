@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Real Estate Listings
+        </title>
+    </head>
+    <style>
+        .button{
+            border : none;
+            color : white;
+            padding : 20px 40px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            size: 30px 80px;
+            margin : 4px 2px;
+            transition-duration: 0.5s;
+        }
+        .button1 {background-color :burlywood; color: black}
+        .button1:hover {background-color: darkorange; color: white}
+        h1 {color: cornflowerblue;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 42px;}
+        body {background-color: beige;}
+        
+
+
+    </style>
+    <body style = "text-align: center;"> 
+        <h1>Real Estate Listings <br> <br></h1>
+        <h2>Select an action: <br> </h2>
+            <form method = "POST" action = "real_estate.php">
+                <span><button class = "button button1" type = "submit" name = 1>Display all Listings</button></span>
+            </form>
+            <form method = "POST" action = "house_search.html">
+                <span><button class = "button button1" type = "submit" name = 2>Search Houses</button></span>
+            </form>
+            <form method = "POST" action = "business_search.html">
+                <span><button class = "button button1" type = "submit" name = 3>Search Business Properties</button></span>
+            </form>
+            <form method = "POST" action = "real_estate.php">
+                <button class = "button button1" type = "submit" name = 4>Display Agents</button>
+            </form>
+            <form method = "POST" action = "real_estate.php">
+                <button class = "button button1" type = "submit" name = 5>Display Buyers</button>
+            </form>
+            <form method = "POST" action = "custom_query.html">
+                <button class = "button button1" type = "submit" name = 6>Enter a Manual Database Query</button>
+            </form>
+    </body>

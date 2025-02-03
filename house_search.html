@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        h1 {color: cornflowerblue;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 42px;}
+        body {background-color: beige;}
+        form {text-align: center;}
+    </style>
+    <title>House Search</title>
+    <body>
+        <h1 style = "text-align: center">House Search</h1><br>
+        <h3 style = "text-align: center">Please enter your desired specifications</h3>
+        <form action = "real_estate.php" method = "POST">
+            Minimum Price: <input type = "text" name = "minPrice"><br>
+            Maximum Price: <input type = "text" name = "maxPrice"> <br>
+            Bedrooms: <input type = "text" name = "bedrooms"> <br>
+            Bathrooms: <input type = "text" name = "bathrooms"> <br> <br>
+            <input type = "submit">
+        </form>
+    </body>
+</html>
